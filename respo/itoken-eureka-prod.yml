@@ -8,7 +8,7 @@ server:
 
 eureka:
   instance:
-    hostname: http://47.107.157.226
+    hostname: http://192.168.91.128
   client:
     registerWithEureka: true
     fetchRegistry: true

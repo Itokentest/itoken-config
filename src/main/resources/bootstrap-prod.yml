@@ -4,7 +4,7 @@ spring:
   boot:
     admin:
       client:
-        url: http://47.107.157.226:8084
+        url: http://192.168.91.128:8084
   cloud:
     config:
       label: master
@@ -14,7 +14,7 @@ spring:
           search-paths: respo
 
   zipkin:
-    base-url: http://47.107.157.226:9411
+    base-url: http://192.168.91.128:9411
 
 server:
   port: 8888
@@ -22,7 +22,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://47.107.157.226:8761/eureka/
+      defaultZone: http://192.168.91.128:8761/eureka/
 
 management:
   endpoint:
