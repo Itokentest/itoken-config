@@ -10,7 +10,7 @@ spring:
       label: master
       server:
         git:
-          uri: https://github.com/Itokentest/itoken-config.git
+          uri: https://github.com/Itokentest/itoken-common-service.git
           search-paths: respo
 
   zipkin:
